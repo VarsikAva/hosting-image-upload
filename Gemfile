@@ -54,7 +54,7 @@ group :development do
   # gem "rack-mini-profiler"
    gem "bootstrap", "~> 5.2"
 
-   gem "simple_form"
+  #  gem "simple_form"
 
    gem "sassc-rails"
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
@@ -67,4 +67,8 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+end
+
+group :production do
+  gem 'simple_form'
 end
