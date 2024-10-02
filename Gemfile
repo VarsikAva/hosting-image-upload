@@ -52,11 +52,6 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-   gem "bootstrap", "~> 5.2"
-
-  #  gem "simple_form"
-
-   gem "sassc-rails"
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
@@ -70,5 +65,7 @@ group :test do
 end
 
 group :production do
-  gem 'simple_form'
+   gem "bootstrap", "~> 5.2"
+   gem "simple_form"
+   gem "sassc-rails"
 end
